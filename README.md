@@ -1,2 +1,2 @@
-# -offgrid-solar-power-system
-Algorithm optimizes sustainable energy generation systems for off-grid applications.
+# offgrid-solar-power-system
+Algorithm estimates the PV system size and energy storage capacity for a renewable, off-grid (stand-alone) power system. By considering oversized PV system sizes, the algorithm determines the energy storage capacity requirement for increasingly oversized PV system sizes. The result is a graph showing how much energy storage capacity vs. how much PV are required for an off-grid system, which shows an inverse relationship between generation and storage. Since PVs and energy storage have different costs, the algorithm computes the price of each off-grid configuration and determines the most cost-effective system.
